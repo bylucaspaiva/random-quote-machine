@@ -6,24 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
     <script src="./index.js" defer></script>
     <title>random-quote-machine</title>
 </head>
 
 <body>
-    <h1>Phylosofy quotes</h1>
-    <wrapper id="quote-box">
-        <div id="text">
-
-        </div>
-        <div id="author">
-
-        </div>
-        <button id="new-quote" onclick="generateQuote();">New quote</button>
-        <a href="" id="tweet-quote" class="button" target="_blank">Tweet quote</a>
-    </wrapper>
-
+    <div class="container-fluid ">
+        <wrapper class="wrapper d-flex align-items-center justify-content-center">
+            <div class="col-6 box p-4" id="quote-box">
+                <h1 class="text-center">Philosophy quotes</h1>
+                <div id="text">
+    
+                </div>
+                <div id="author">
+    
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button id="new-quote" class="btn btn-primary" onclick="generateQuote();">New quote</button>
+                    <a href="" id="tweet-quote" class="button btn btn-primary" target="_blank">Tweet quote</a>
+                </div>
+            </div>
+        </wrapper>
+    </div>
+    
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
