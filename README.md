@@ -1,4 +1,6 @@
-Random quote machine project from freeCodeCamp
+#Random quote machine project from freeCodeCamp.
 
-live code here: https://lspaiva.github.io/random-quote-machine/
+This project was maded with plain javascript, and it is from the [Front End Development Libraries](https://www.freecodecamp.org/learn/front-end-development-libraries/)
+
+live code here: https://bylucaspaiva.github.io/random-quote-machine/
 
